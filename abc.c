@@ -8,6 +8,9 @@ int main(void)
 	c = a + b;
 	for(i=0;i<n;i++)
 		c += i;
+	//This is for debug
+	for(i=0;i<n;i++)
+		b+=i;
 	return 0;
 }
 
