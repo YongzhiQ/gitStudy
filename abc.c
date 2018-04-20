@@ -11,8 +11,6 @@ int main(void)
 	//This is for debug
 	for(i=0;i<n;i++)
 		b+=i;
-	//This is test for git stash
-	//This is test for checkout
 	return 0;
 }
 
