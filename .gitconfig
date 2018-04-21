@@ -1,0 +1,18 @@
+[user]
+	name = Yongzhi
+	email = qiyongzhi@foxmail.com
+[credential]
+	helper = manager
+[alias]
+	br = branch
+	st = status
+	co = checkout
+	ci = commit
+	pl = pull --rebase
+	ps = push
+	mg = merge --no-ff
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[core]
+	autocrlf = input
+[push]
+	default = upstream
